@@ -19,14 +19,6 @@ public class LoginController implements Initializable {
     @FXML JFXHamburger ham1;
     @FXML JFXDrawer drawer;
 
-//    @Override
-//    public void start(Stage primaryStage) throws Exception {
-//        AnchorPane root = FXMLLoader.load(getClass().getResource("loginJFX.fxml"));
-//        primaryStage.setTitle("Hospital App");
-//        Scene applicationScene = new Scene(root);
-//        primaryStage.setScene(applicationScene);
-//        primaryStage.show();
-//    }
    public void initialize(URL url, ResourceBundle rb) {
        VBox box = null;
        try {

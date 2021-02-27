@@ -15,9 +15,9 @@ import java.util.ResourceBundle;
 
 
 public class LoginController implements Initializable {
-
     @FXML JFXHamburger ham1;
     @FXML JFXDrawer drawer;
+
 
    public void initialize(URL url, ResourceBundle rb) {
        VBox box = null;
